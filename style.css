@@ -1,0 +1,50 @@
+header{
+    background-color: antiquewhite;
+    display: flex;
+}
+header img{
+    width: 130px;
+}
+body{
+    background-color: rgb(147, 212, 7);
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    color: blue;
+}
+p{
+    font-style: italic;
+    font-size: x-large;
+}
+h3{
+    text-align: center;
+    font-style: italic;
+    color:chocolate;
+    font-size: xx-large;
+}
+.family{
+background-color: antiquewhite;
+}
+
+.swim{
+    background-image:url(sport-b.jpg) ;
+    height: 700px;
+    color: rgb(199, 34, 34);
+}
+.swim p{
+    font-size: 50px;
+    text-align: centerr;
+}
+button{
+    border-radius: 15px;
+}
+ul{
+    display: flex;
+    width: 45px;
+}
+footer{
+    background-color: aqua;
+
+}
