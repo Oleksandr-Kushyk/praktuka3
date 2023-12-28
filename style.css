@@ -3,7 +3,7 @@ header{
     display: flex;
 }
 header img{
-    width: 130px;
+    width: 200px;
 }
 body{
     background-color: rgb(147, 212, 7);
@@ -25,7 +25,10 @@ h3{
     font-size: xx-large;
 }
 .family{
-background-color: antiquewhite;
+        background: rgb(2,0,36);
+        background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 3%, rgba(121,9,94,0.7651435574229692) 74%);
+        padding: 25px;
+        text-align: center;
 }
 
 .swim{
@@ -46,5 +49,32 @@ ul{
 }
 footer{
     background-color: aqua;
-
+text-align: center;
+}
+img {
+    width: 300px;
+    border-radius: 15%;
+    box-shadow: 11px 9px 15px rgb(43, 43, 46);
+}
+img:hover {
+    width: 430px;
+    transition: 0.3s;
+    box-shadow: 9px 5px 5px rgb(193, 8, 100);
+}
+.name {
+    font-size: 25px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: rgb(40, 33, 169);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    font-family: cursive;
+}
+.name:hover {
+    text-shadow: 8px 3px 5px rgb(105, 25, 141);
+    font-size: 35px;
+    transition: 1s;
+    cursor:
 }
